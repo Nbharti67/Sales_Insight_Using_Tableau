@@ -10,7 +10,7 @@ To unlock sales insights that are not visible before for sales team for decision
 - Sales Director
 - Marketing Team
 - Customer Service Team
-- Data &Analytics Team
+- Data & Analytics Team
 - IT
 
 ## End Result
