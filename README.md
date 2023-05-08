@@ -70,3 +70,6 @@ We can conclude from the Dashboard - Revenue Analysis is that sales are declinin
 
 To increase the profit we concluded below from Dashboard-Profit Analysis
 - We should increase revenue for bhubneshwar, Surat since even if revenue is low, these cities are giving high profit.
+
+#### Please visit the link below to view the Dashboard in Tableau 
+https://public.tableau.com/app/profile/nisha.bharti/viz/Sales_Insight_of_a_Dummy_Dataset/Dashboard-RevenueAnalysis
