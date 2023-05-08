@@ -1,7 +1,7 @@
 # Sales_Insight_Using_Tableau
 
 Introduction:
-Sales data of a virtual company has been provided and our aim is to find sales insight so that we can check whether sales is declining or not and
+There is a virtual company whose sales data has been provided to us and our aim is to find sales insight so that we can check whether sales is declining or not and
 if sales is declining what can be done to increase the profit. We'll be looking on these aspects.
 
 ## Purpose
@@ -14,7 +14,7 @@ To unlock sales insights that are not visible before for sales team for decision
 - IT
 
 ## End Result
-An automated dashboard providing quick and latest sales insights in order to support data-driven decision making
+An automated dashboard providing quick and latest sales and profit insights in order to support data-driven decision making
 
 ## Success Criteria
 - Dashboards uncovering sales order insights with the latest data available
@@ -32,11 +32,16 @@ from SQL to tableau
 1. Sales amount has -1 and 0 as selling amount so we'll remove all -1 and 0 by applying filter that contains sales amount atleast 1, should not be less than 1
 2. Now, we will check sales quantity (sales quantity shouldn’t have any 0 or -1). if there is any 0 or -1 as sales quantity, we'll filter it 
 (To filter it follow the step shown here in tableau: go to data->edit data source filters)
-3. Again, while checking, I found that sales amount is in usd for some sales, so I need to change into INR so for this do the step below
+3. Again, while checking, I found that sales amount is in USD for some sales, so I need to change into INR so for this do the step below
+
 Step to change sales amount in USD to INR using Tableau Desktop is below:
+
 Click on dropdown from column and select calculated field, -> Name the calculated field as Normalized amount and write formula below
+
 IF [Currency] == 'USD' THEN [Sales Amount]*81.74 ELSE [Sales Amount] END
+
 - In market table:
+
 The company has market in India only so if we find any city not situated in India, we'll delete those rows.
 
 ## Data Analysis and visualization
